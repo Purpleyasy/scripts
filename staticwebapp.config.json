@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "/appsec_test",
+      "methods": [
+        "get",
+        "post",
+        "patch"
+      ],
+      "rewrite": "/test_payload.js",
+      "statusCode": 200
+    }
+  ]
+}
