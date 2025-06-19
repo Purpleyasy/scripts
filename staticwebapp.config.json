@@ -1,13 +1,12 @@
 {
   "routes": [
     {
-      "route": "/appsec_test",
+      "route": "/scripts/blob/main/test_payload.js",
       "methods": [
         "get",
         "post",
         "patch"
       ],
-      "rewrite": "/test_payload.js",
       "statusCode": 200
     }
   ]
